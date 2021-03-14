@@ -1,0 +1,26 @@
+html {
+	padding-top: 10px;
+	background: blue;
+	margin-bottom:400px;
+}
+body {
+	background: rgba(0,0,0,.3);
+	padding: 10px;
+	border-radius: 10px;
+	margin: auto;
+}
+div.logo {
+	display: inline;
+	color: #fff;
+	font-family: arial;
+	font-size: 70px;
+	text-align: center
+	
+}
+p {
+	padding-top: 12px;
+	margin: 0px 0px 12px 0px;
+}
+img {
+	float: left;
+}
