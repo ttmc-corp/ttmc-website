@@ -1,6 +1,6 @@
 html {
 	padding-top: 10px;
-	background: blue;
+	background: linear-gradient(#0066ed,#000087)  no-repeat fixed;
 	margin-bottom:400px;
 }
 body {
@@ -8,19 +8,37 @@ body {
 	padding: 10px;
 	border-radius: 10px;
 	margin: auto;
+	font-family: arial;
+	color: #fff;
+	max-width: 850px;
 }
 div.logo {
 	display: inline;
-	color: #fff;
-	font-family: arial;
-	font-size: 70px;
-	text-align: center
+	font-size: 60px;
+	text-align: center;
 	
 }
-p {
+#logo {
 	padding-top: 12px;
-	margin: 0px 0px 12px 0px;
+	margin: 0px 0px 60px 0px;
+}
+.block {
+	padding: .25em;
+	display: inline-block; 
+	vertical-align: top;
+	margin: auto;
+}
+.block ul {
+	margin: 0;
+	list-style: disc;
+}
+h3 {
+	text-align: center;
 }
 img {
 	float: left;
+}
+a:link, a:visited, a:hover, a:active {
+	color: white;
+	text-decoration: none;
 }
